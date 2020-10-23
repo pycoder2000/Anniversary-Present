@@ -1,0 +1,24 @@
+#elapseClock .digit {
+    font-family: "digit";
+    font-size: 150%;
+}
+
+img.emojione {
+    // Override any img styles to ensure Emojis are displayed inline
+    margin: 0px !important;
+    display: inline !important;
+    height: auto;
+    width: 50px;
+}
+
+p#wrong-test {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    display: inline-block;
+}
+
+span.emoji {
+    font-size: 50px;
+    vertical-align: middle;
+    line-height: 2;
+}

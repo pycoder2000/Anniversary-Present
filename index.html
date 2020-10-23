@@ -1,0 +1,236 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Happy Anniversary!</title>
+
+    <meta name="description" content="impress.js is a presentation tool based on the power of CSS3 transforms and transitions in modern browsers and inspired by the idea behind prezi.com." />
+    <meta name="author" content="Parth Desai" />
+
+    <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
+
+    <link rel="icon" href="Love-Free-PNG-Image.png" />
+
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/odometer-theme-car.css" />
+    <link rel="stylesheet" href="http://github.hubspot.com/odometer/themes/odometer-theme-minimal.css" />
+    <link rel="stylesheet" href="css/main.css">
+    <!-- <link rel="shortcut icon" href="favicon.png" /> -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+</head>
+
+<style>
+    .odometer {
+        font-family: "Tahoma";
+    }
+</style>
+
+<script>
+    window.odometerOptions = {
+        format: 'ddd'
+    };
+</script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="js/odometer.min.js"></script>
+
+<body class="impress-not-supported">
+
+    <audio autoplay loop id="playAudio">
+        <source src="audio/A Thousand Years.mp3">
+    </audio>
+
+    <div class="fallback-message">
+        <p> Your Browser <b>does not support</b> this display function.</p>
+        <p> For the best display experience，Please use the latest version of <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> Browser.</p>
+        <p> Type in the address bar : <b>(Yet to be published)</b></p>
+    </div>
+
+
+    <div id="impress">
+
+        <div id="bored" class="step slide" data-x="-1000" data-y="-1500">
+            <q>We are one freaking year in! A lifetime to go<span class="emoji">👴</span></q>
+        </div>
+
+
+        <div class="step slide" data-x="0" data-y="-1500">
+            <q>Before I met you I had no idea what<strong> true love </strong>is.
+            <br>After I met you it was too late <span class="emoji">😂</span></q>
+        </div>
+
+        <div class="step slide" data-x="1000" data-y="-1500">
+            <q><br>So sit back and relax while I cook something nice for you<br>And thanks for being my favourite pain in the ass😉</q>
+        </div>
+
+
+        <div id="title" class="step" data-x="0" data-y="200" data-scale="4">
+            <span class="try">Celebrating
+            <br>
+            <div id="odometer" class="odometer">001</div> year with you</span>
+
+        </div>
+
+        <div id="its" class="step" data-x="-300" data-y="3600" data-rotate="90" data-scale="5">
+            <br>
+            <br>
+            <br>
+            <p style="font-family: 'Tahoma';font-size: 50px;top: 5em;left:20px">and the
+                <div id="odometer1" class="odometer">63456</div> memories...</p>
+            <!-- Netease Music : Do you remember/The Summer Obsession -->
+            <div style="height:60%; width:50%; padding-bottom:86.25%; position:relative;top: 1.5em;">
+                <iframe src="index1.html" style="position:absolute; top:0px; left:35px; 
+                width:100%; height:60%; border: '1'; overflow: hidden;"></iframe>
+            </div>
+        </div>
+
+        <div id="big" class="step" data-x="3500" data-y="2100" data-rotate="180" data-scale="6">
+            <p style="font-size:75%;font-family: 'Georgia'">It has been</p>
+            <br>
+            <div id="elapseClock"></div>
+            <br>
+            <p style="font-size:60%;font-family: 'Georgia';">Since I gave up on finding someone better than you 😂</p>
+            <p style="font-size:20%"><br>Psst.. Click on the clock</p>
+
+        </div>
+
+
+        <div id="tiny" class="step" data-x="2825" data-y="2325" data-z="-3000" data-rotate="300" data-scale="1">
+            <p style="font-size: 75%;font-family: Verdana, Geneva, Tahoma, sans-serif"><strong>Dear Love of my life</strong>,<br>I just want you to know how much I've loved annoying you all this time, and how excited I am to keep doing so in the future. So yeah, Happy Anniversary to the girl who put up with my crazy!</p>
+            <br>
+
+        </div>
+
+        <div id="ing" class="step" data-x="3500" data-y="-1200" data-rotate="270" data-scale="6">
+            <!-- <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p> -->
+            <p style="font-size: 100%;font-family: Verdana, Geneva, Tahoma, sans-serif;">Here's to our
+                <p>(sanitized)</p><b class="rotating">1st</b> Anniversary!</p>
+            <p style="font-size:40%"><br>P.S. : Don’t worry it’s just postponed not cancelled</p>
+        </div>
+
+        <div id="imagination" class="step" data-x="7000" data-y="-1000" data-scale="6">
+            <p style="font-size:100%;font-family: Verdana, Geneva, Tahoma, sans-serif;">From creating crazy playlists <b class="imagination">together</b></p>
+            <br>
+            <iframe src="index2.html" style="position:absolute; top:0px; width:100%; height:100%; border: '1'; overflow: hidden;"></iframe>
+        </div>
+
+        <div id="source" class="step" data-x="6500" data-y="2500" data-rotate="20" data-scale="4">
+            <img src="bae.jpg" style="width: 50%;display: inline-block;float: right;">
+            <p style="font-size: 50%;float: left;width: 45%;padding-right: 2px;">To anchoring <b>at every possible event</b>.<br>Thank you for being a part of the journey.
+            </p>
+        </div>
+
+        <div id="one-more-thing" class="step" data-x="6000" data-y="4000" data-scale="2">
+            <p>ONE MORE THING...</p>
+        </div>
+
+
+        <div id="its-in-3d" class="step" data-x="6200" data-y="4300" data-z="-400" data-rotate-x="-60" data-rotate-y="10" data-scale="2">
+            <p> <b> I love you</b></p>
+            <span class="footnote" style="font-size:60%">No matter where you look from</span>
+        </div>
+
+
+        <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+        </div>
+
+    </div>
+
+
+    <div class="hint">
+        <p>Press <strong>Space </strong> or<strong> ↑ ↓ ← → Arrow Key</strong> Try it</p>
+    </div>
+    <script src="http://github.hubspot.com/odometer/odometer.js"></script>
+
+    <script>
+        const subsodometer = document.querySelector(".odometer");
+
+        const subsodometer1 = document.getElementById("odometer1")
+        const odometer = new Odometer({
+            el: subsodometer,
+            el: subsodometer1
+        })
+
+        //odometer.update(1)
+        //subsodometer.innerHTML = 999;
+        //subsodometer.innerHTML = pad(1, 3); ;
+        const interaval = setInterval(function() {
+            subsodometer.innerHTML = 9;
+            subsodometer.innerHTML = 1;
+            subsodometer1.innerHTML = 10000;
+            subsodometer1.innerHTML = 63456;
+        }, 5000);
+        clearInterval(interval);
+    </script>
+
+    <script>
+        if ("ontouchstart" in document.documentElement) {
+            document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+        }
+    </script>
+
+
+    <script type="text/javascript" src="js/impress.js"></script>
+    <script>
+        impress().init();
+    </script>
+    <script type="text/javascript" src="js/function_dev.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <style type="text/css">
+        @font-face {
+            font-family: digit;
+            src: url('digital-7_mono.ttf') format("truetype");
+        }
+    </style>
+    <script type="text/javascript">
+        var offsetX = $("#loveHeart").width() / 2;
+        var offsetY = $("#loveHeart").height() / 2 - 55;
+        var displayMode = 1;
+        var together = new Date();
+        // Start date: 19 - 07 - 2019 11:00:00
+        together.setFullYear(2019, 07, 19);
+        together.setHours(11);
+        together.setMinutes(0);
+        together.setSeconds(0);
+        together.setMilliseconds(0);
+
+        $("#big").click(function() {
+            displayMode *= -1;
+            timeElapse(together, displayMode);
+        });
+
+        if (!document.createElement('canvas').getContext) {
+            var msg = document.createElement("div");
+            msg.id = "errorMsg";
+            msg.innerHTML = "Your browser doesn't support HTML5!<br/>Recommend use Chrome 14+/IE 9+/Firefox 7+/Safari 4+";
+            document.body.appendChild(msg);
+            $("#code").css("display", "none")
+            $("#copyright").css("position", "absolute");
+            $("#copyright").css("bottom", "10px");
+            document.execCommand("stop");
+        } else {
+            setTimeout(function() {
+                adjustWordsPosition();
+                startHeartAnimation();
+            }, 5000);
+
+            timeElapse(together, displayMode);
+            setInterval(function() {
+                timeElapse(together, displayMode);
+            }, 500);
+
+            adjustCodePosition();
+            $("#code").typewriter();
+        }
+    </script>
+
+</body>
+
+</html>
